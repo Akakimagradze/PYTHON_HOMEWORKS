@@ -6,13 +6,13 @@ else:
     for i in range(1, height + 2):
         spaces = " " * (height - i)
         trunkSpaces = " " * (height - 1)
-        
+
         if i == 1:
-            print(spaces + "*" + trunkSpaces)
+            print(spaces + "*")
         elif i == height+1:
-            print(trunkSpaces + "|" + trunkSpaces)
+            print(trunkSpaces + "|")
         else:
             leftSlashes = "/" * (i - 1)
             rightBackslashes = "\\" * (i - 1)
-            print(spaces + leftSlashes + "|" + rightBackslashes + trunkSpaces)
+            print(spaces + leftSlashes + "|" + rightBackslashes)
 
