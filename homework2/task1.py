@@ -1,6 +1,6 @@
-userInput = input("Please write boolean value(true/false): ")
+user_input = input("Please write boolean value(true/false): ")
 
-if(userInput.lower() == "true"):
+if user_input.lower() == "true":
     print("Whoala")
 else:
     print("Falsy Input")

@@ -1,14 +1,14 @@
-carSpeed = float(input("Please enter car speed: "))
-roundedCarSpeed = round(carSpeed)
+car_speed = float(input("Please enter car speed: "))
+rounded_car_speed = round(car_speed)
 
-if(roundedCarSpeed <= 0):
+if(rounded_car_speed <= 0):
     print("Try again")
-elif(roundedCarSpeed <= 30):
-    print("Car is slow")
-elif(roundedCarSpeed > 30 and roundedCarSpeed <= 60):
-    print("Car is moderate")
-elif(roundedCarSpeed > 60 and roundedCarSpeed <= 120):
-    print("Car is fast")
+elif(rounded_car_speed <= 30):
+    print("SLOW")
+elif(rounded_car_speed > 30 and rounded_car_speed <= 60):
+    print("MODERATE")
+elif(rounded_car_speed > 60 and rounded_car_speed <= 120):
+    print("FAST")
 else:
-    print("Car is very fast")
+    print("VERY FAST")
     
