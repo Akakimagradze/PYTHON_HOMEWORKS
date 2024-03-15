@@ -1,12 +1,12 @@
-userNum = int(input("Enter positive number(1-9): "))
+user_num = int(input("Enter positive number(1-9): "))
 
-while userNum <= 0 or userNum >= 10:
-    userNum = int(input("Enter positive number(1-9): "))
+while user_num <= 0 or user_num >= 10:
+    user_num = int(input("Enter positive number(1-9): "))
 
 i = 0
-while i <= userNum:
+while i <= user_num:
     j = 1
-    while j <= userNum - i:
+    while j <= user_num - i:
         print(end=" ")
         j += 1
         

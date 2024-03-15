@@ -1,13 +1,13 @@
-userPassword = input("Enter your password: ")
-correctPassword = "georgia"
-maxTries = 3
+user_password = input("Enter your password: ")
+correct_password = "georgia"
+max_tries = 3
 
-for i in range(1, maxTries):
-    if userPassword != correctPassword and i < maxTries:
-        userPassword = input("Enter your password: ")
+for i in range(1, max_tries):
+    if user_password != correct_password:
+        user_password = input("Enter your password: ")
     
-if userPassword == correctPassword and i < maxTries:
+if user_password == correct_password and i < max_tries:
         print("Password is correct")  
-if userPassword != correctPassword:
+if user_password != correct_password:
     print("You are blocked")
     

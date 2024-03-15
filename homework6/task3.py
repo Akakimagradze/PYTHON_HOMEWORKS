@@ -1,22 +1,22 @@
 import random
 
-computerNum = random.randint(0, 99)
-userNum = int(input("Guess the number(0-99): "))
-maxTries = 10
+computer_number = random.randint(0, 99)
+user_number = int(input("Guess the number(0-99): "))
+max_tries = 10
 counter = 1
 
-while counter < maxTries:
-    if userNum > computerNum:
+while counter < max_tries:
+    if user_number > computer_number:
         print("High")
-    elif userNum < computerNum:
+    elif user_number < computer_number:
         print("Low")
     else:
         print("You are winner")
         break
     counter += 1
-    userNum = int(input("Guess the number(0-99): "))
+    user_number = int(input("Guess the number(0-99): "))
     
-if userNum != computerNum:
+if user_number != computer_number:
     print("Computer is winnner")
 
     
