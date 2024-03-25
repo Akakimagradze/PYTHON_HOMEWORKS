@@ -9,4 +9,3 @@ if sorted_first_string == sorted_second_string:
 else:
     print("Output: NO")
     
-    
