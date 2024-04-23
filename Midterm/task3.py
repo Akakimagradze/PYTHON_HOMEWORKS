@@ -1,6 +1,6 @@
 import random
 
-def main():
+def move_gen():
     random_number = random.randint(1,3)
     computer_move = ""
     if random_number == 1:
@@ -9,7 +9,9 @@ def main():
         computer_move = "P"
     else:
         computer_move = "S"
-    
+    return computer_move
+
+def main(computer_move):
     user_move = input("Enter (R/P/S): ")
     while user_move.upper() != "R" and user_move.upper() != "P" and user_move.upper() != "S":
         user_move = input("Enter (R/P/S): ")
@@ -26,12 +28,12 @@ def main():
         print("Draw")
     elif computer_move.upper()== "P" and user_move.upper() == "S":
         print("You Won")
-    elif user_move.upper() == "S" and computer_move.upper() == "S":
+    elif computer_move.upper() == "S" and user_move.upper() == "S":
         print("Draw")
-    elif user_move.upper() == "S" and computer_move.upper() == "P":
+    elif computer_move.upper() == "S" and user_move.upper() == "P":
         print("Computer Won")
-    elif user_move.upper() == "S" and computer_move.upper() == "R":
+    elif computer_move.upper() == "S" and user_move.upper() == "R":
         print("You Won")
-        
-main()
 
+if __name__ == "__main__":
+    main(move_gen())
