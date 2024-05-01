@@ -1,0 +1,8 @@
+Ana,Apple,3,4.5
+Sopho,Lemon,2,1.5
+Saba,Grapes,7,7.5
+Luka,Watermelon,5,1.2
+Lili,Kivi,3,6.5
+Nika,Peach,7,0.8
+Aleko,Strawberries,6,0.4
+Luka,Orange,5,3
