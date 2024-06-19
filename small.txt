@@ -1,0 +1,4 @@
+Sopho,Lemon,2,1.5
+Luka,Watermelon,5,1.2
+Nika,Peach,7,0.8
+Aleko,Strawberries,6,0.4

@@ -1,0 +1,4 @@
+Ana,Apple,3,4.5
+Saba,Grapes,7,7.5
+Lili,Kivi,3,6.5
+Luka,Orange,5,3
