@@ -1,7 +1,7 @@
-#                                              About The Repository And Course
-                                             Course Name: Introduction To Python.
-                                             Sponsored By: TBC Academy x USAID.
-                                             Course Duration: 4 Months And 2 Weeks.
+#                                        About The Repository And Course
+                                       Course Name: Introduction To Python.
+                                       Sponsored By: TBC Academy x USAID.
+                                       Course Duration: 4 Months And 2 Weeks.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # What Skills And Fundamental Concepts I Studied In This Course:
